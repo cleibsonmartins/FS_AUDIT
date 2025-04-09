@@ -73,9 +73,6 @@ C:\RelatoriosAuditoria\
 relatorio_auditoria.html
 relatorio_auditoria.csv
 
-# Licença
-Este projeto está licenciado sob a MIT License.
-
 # Autor
 [Cleibson Martins de Oliveira da Silva] - [cleibson_10@hotmail.com]
 
