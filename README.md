@@ -38,8 +38,11 @@ Este projeto em PowerShell realiza a **auditoria de arquivos em tempo real** em 
 Antes de executar os scripts, edite as variáveis nos arquivos `auditoria.ps1` e `enviar_relatorio.ps1`, como:
 
 $diretorioMonitorado = "G:\"
+
 $emailDestino = "EMAIL_DESTINO"
+
 $usuarioSMTP = "USUARIO_DESTINO"
+
 $senhaSMTP = "SUA_SENHA"
 
 ### 2. Executar como Serviço (opcional)
@@ -58,6 +61,7 @@ Adiciona uma tarefa agendada para envio diário de relatórios:
 Você pode executar manualmente os scripts com:
 
 .\auditoria.ps1
+
 .\enviar_relatorio.ps1 -Destinatario "outroemail@dominio.com"
 
 # Exemplo de Relatório
