@@ -1,4 +1,4 @@
-#código feito com ajuda de IA.
+# CÓDIGO CRIADO COM AJUDA DE IA.
 
 # Auditoria de Arquivos com Envio Automático de Relatórios
 
