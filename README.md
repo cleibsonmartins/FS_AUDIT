@@ -2,6 +2,9 @@
 
 Este projeto em PowerShell realiza a **auditoria de arquivos em tempo real** em uma unidade específica do sistema, gera relatórios nos formatos HTML e CSV e os envia automaticamente por e-mail. Inclui funcionalidades para instalação como **serviço do Windows** ou via **agendador de tarefas**, tornando-o ideal para ambientes corporativos.
 
+![image](https://github.com/user-attachments/assets/c373912a-e6af-4cf5-a924-0a2d829f1cc8)
+
+
 ## Funcionalidades
 
 - Monitoramento em tempo real de criação, alteração e exclusão de arquivos.
