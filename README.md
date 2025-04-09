@@ -37,36 +37,36 @@ $emailDestino = "EMAIL_DESTINO"
 $usuarioSMTP = "USUARIO_DESTINO"
 $senhaSMTP = "SUA_SENHA"
 
-2. Executar como Serviço (opcional)
+### 2. Executar como Serviço (opcional)
 Instale o script como serviço do Windows:
 
 .\instalar_servico.ps1
 
-# Requer NSSM instalado e disponível no PATH.
+## Requer NSSM instalado e disponível no PATH.
 
-3. Executar via Tarefa Agendada (opcional)
+### 3. Executar via Tarefa Agendada (opcional)
 Adiciona uma tarefa agendada para envio diário de relatórios:
 
 .\Adicionar_agendador_envio_relatorio.ps1
 
-Execução Manual
+# Execução Manual
 Você pode executar manualmente os scripts com:
 
 .\auditoria.ps1
 .\enviar_relatorio.ps1 -Destinatario "outroemail@dominio.com"
 
-Exemplo de Relatório
+# Exemplo de Relatório
 Os relatórios são salvos em:
 
 C:\RelatoriosAuditoria\
 
-Com os arquivos:
+# Com os arquivos:
 relatorio_auditoria.html
 relatorio_auditoria.csv
 
-Licença
+# Licença
 Este projeto está licenciado sob a MIT License.
 
-Autor
+# Autor
 [Cleibson Martins de Oliveira da Silva] - [cleibson_10@hotmail.com]
 
