@@ -1,3 +1,5 @@
+#código feito com ajuda de IA.
+
 # Auditoria de Arquivos com Envio Automático de Relatórios
 
 Este projeto em PowerShell realiza a **auditoria de arquivos em tempo real** em uma unidade específica do sistema, gera relatórios nos formatos HTML e CSV e os envia automaticamente por e-mail. Inclui funcionalidades para instalação como **serviço do Windows** ou via **agendador de tarefas**, tornando-o ideal para ambientes corporativos.
